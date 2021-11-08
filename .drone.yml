@@ -6,7 +6,7 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    registry: docker.io
+    # registry: docker.io
     repo: juanluisbaptiste/docker-hello-world
     username:
       from_secret: docker_username
