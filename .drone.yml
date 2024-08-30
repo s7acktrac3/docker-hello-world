@@ -7,7 +7,7 @@ steps:
   image: plugins/docker
   settings:
     # registry: docker.io
-    repo: juanluisbaptiste/docker-hello-world
+    repo: s7acktrac3/docker-hello-world
     username:
       from_secret: docker_username
     password:
